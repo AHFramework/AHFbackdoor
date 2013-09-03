@@ -1,10 +1,7 @@
 package org.backdoorAHF.service;
 
 import java.io.BufferedReader;
-import java.io.IOException;
-
 import java.io.InputStreamReader;
-import java.net.URISyntaxException;
 
 import org.backdoorAHF.dom.Querys;
 import org.hibernate.*;
@@ -22,7 +19,7 @@ public class Conection {
 		
 	}
 	
-	public static void questionToServer() throws IOException, URISyntaxException
+	public static void questionToServer() throws Exception
 	{
 	
 		

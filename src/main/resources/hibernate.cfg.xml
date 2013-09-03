@@ -8,7 +8,7 @@
     <session-factory>
         <!-- Database connection settings -->
           <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://ipofserver/defaultschema</property>
+        <property name="connection.url">jdbc:mysql://ipaddress/defaultschema</property>
         <property name="connection.username">user</property>
         <property name="connection.password">password</property>
 
